@@ -1,0 +1,54 @@
+Channels:
+ - conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/javier/miniconda3/envs/aidl-session5
+
+  added / updated specs:
+    - portalocker
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _libgcc_mutex-0.1          |      conda_forge           3 KB  conda-forge
+    _openmp_mutex-4.5          |            2_gnu          23 KB  conda-forge
+    libgcc-14.2.0              |       h77fa898_1         829 KB  conda-forge
+    libgcc-ng-14.2.0           |       h69a702a_1          53 KB  conda-forge
+    libgomp-14.2.0             |       h77fa898_1         450 KB  conda-forge
+    openssl-3.4.0              |       hb9d3cd8_0         2.8 MB  conda-forge
+    portalocker-3.0.0          |   py39hf3d152e_0          39 KB  conda-forge
+    python_abi-3.9             |           2_cp39           4 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         4.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  libgcc             conda-forge/linux-64::libgcc-14.2.0-h77fa898_1 
+  portalocker        conda-forge/linux-64::portalocker-3.0.0-py39hf3d152e_0 
+  python_abi         conda-forge/linux-64::python_abi-3.9-2_cp39 
+
+The following packages will be UPDATED:
+
+  libgcc-ng          pkgs/main::libgcc-ng-11.2.0-h1234567_1 --> conda-forge::libgcc-ng-14.2.0-h69a702a_1 
+  libgomp              pkgs/main::libgomp-11.2.0-h1234567_1 --> conda-forge::libgomp-14.2.0-h77fa898_1 
+  openssl              pkgs/main::openssl-3.0.15-h5eee18b_0 --> conda-forge::openssl-3.4.0-hb9d3cd8_0 
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  _libgcc_mutex           pkgs/main::_libgcc_mutex-0.1-main --> conda-forge::_libgcc_mutex-0.1-conda_forge 
+  _openmp_mutex          pkgs/main::_openmp_mutex-5.1-1_gnu --> conda-forge::_openmp_mutex-4.5-2_gnu 
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done

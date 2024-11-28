@@ -1,0 +1,38 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.cpython-39.pyc
+
+# Data files
+*.csv
+*.pt
+
+# Environment and IDE
+.env
+.venv
+env/
+venv/
+.vscode/
+.idea/
+
+# Static and media files
+*.png
+static/
+media/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Cache and temporary files
+*.log
+*.cache
+
+# App specific
+*.yaml
+*.yml
+!app.yaml  # Uncomment if you want to keep app.yaml tracked
+
+# Keep specific images
+!image.png
